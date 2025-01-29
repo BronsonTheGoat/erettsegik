@@ -1,0 +1,39 @@
+body{
+    background-color: moccasin;
+    color: navy;
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    width: 800px;
+}
+
+/*osember*/
+
+#osember img{
+    border: 1px solid black;
+}
+
+#osember p{
+    text-align: left;
+}
+
+/*nean*/
+
+#nean hr{
+    width: 400px;
+}
+
+#nean table{
+    width: 700px;
+    margin: auto;
+}
+
+#nean table p{
+    text-align: left;
+}
+
+#nean .arrow{
+    float: left;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: indigo;
+    color: black;
+    text-align: center;
+}
+main{
+    width: 1200px;
+    margin: auto;
+}
+h1{
+    color: lightskyblue;
+}
+table#t1{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    text-align: left;
+}
+table#t1 tr td{
+    border: 1px solid black;
+}
+table#t1 tr:nth-child(2) td{
+    padding: 0 2% 0 2%;
+}
+table#t2{
+    width: 100%;
+    text-align: center;
+}
+table#t2 tr td{
+    border: none;
+}
+#jatek{
+    border: 1px solid black;
+}

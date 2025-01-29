@@ -1,0 +1,288 @@
+/*CSS reset, header styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto 0 auto;
+    width: 800px;
+    background-color: #E7D9B6;
+    color: #CC0000;
+}
+
+header img#frame{
+    display: block;
+    width: 800px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-width: 0;
+    border-collapse: collapse;
+}
+
+header img#left-dart{
+    display: inline;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-width: 0;
+    border-collapse: collapse;
+    position: relative;
+}
+
+header img#right-dart{
+    display: inline;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-width: 0;
+    border-collapse: collapse;
+    transform: scaleX(-1);
+    float: right;
+}
+
+/*darts page styles*/
+
+nav{
+    width: 100%;
+}
+
+nav .menu{
+    text-align: center;
+    font-size: 22px;
+    width: 50%;
+    text-decoration: none;
+    transform: translateX(50%);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    transition: ease .3s;
+}
+
+nav .menu:hover{
+    width: 45%;
+    transform: translateX(61%);
+}
+
+nav .menu-green{
+    background-color: rgb(14, 88, 29);
+    color: rgb(231, 217, 182);
+}
+
+nav .menu-green a{
+    color: rgb(231, 217, 182);
+}
+
+nav .menu-green:nth-child(1){
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav .menu-green:nth-child(1)::before{
+    transform: skewX(30deg);
+    content: " ";
+    background-color: rgb(14, 88, 29);
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    left: -94px;
+    top: -1px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-green:nth-child(1)::after{
+    transform: skewX(-30deg);
+    content: " ";
+    background-color: rgb(14, 88, 29);
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    right: -94px;
+    top: -1px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-green:nth-child(3){
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav .menu-green:nth-child(3)::before{
+    transform: skewX(30deg);
+    content: " ";
+    background-color: rgb(14, 88, 29);
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    left: -34px;
+    top: -1px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-green:nth-child(3)::after{
+    transform: skewX(-30deg);
+    content: " ";
+    background-color: rgb(14, 88, 29);
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: -34px;
+    top: -1px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-white{
+    background-color: rgb(231, 217, 182);
+    color: rgb(14, 88, 29);
+}
+
+nav .menu-white:nth-child(2){
+    display: block;
+    height: 80px;
+    line-height: 80px;
+}
+
+nav .menu-white:nth-child(2)::before{
+    transform: skewX(30deg);
+    content: " ";
+    background-color: rgb(231, 217, 182);
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    left: -64px;
+    top: -1px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-white:nth-child(2)::after{
+    transform: skewX(-30deg);
+    content: " ";
+    background-color: rgb(231, 217, 182);
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    right: -64px;
+    top: -1px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-white:nth-child(4){
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav .menu-white:nth-child(4)::before{
+    transform: skewX(30deg);
+    content: " ";
+    background-color: rgb(231, 217, 182);
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    left: -15px;
+    top: -1px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+nav .menu-white:nth-child(4)::after{
+    transform: skewX(-30deg);
+    content: " ";
+    background-color: rgb(231, 217, 182);
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    right: -15px;
+    top: -1px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+/*tortenet page styles*/
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+/*jatekok page styles*/
+
+ul{
+    margin-left: 40px;
+}
+
+h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+hr{
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 2px;
+    background-color: #0E581D;
+}
+
+/*eszkozok page stíles*/
+
+table{
+    margin: auto;
+    text-align: center;
+    border: 2px groove;
+    border-color: #ffffff;
+    width: 90%;
+    background-color: "#0e581d";
+    padding: 10;
+    border-spacing: 0;
+}
+
+td{
+    text-align: left;
+    border: 2px groove;
+    padding: 10;
+    border-spacing: 0;
+}
+
+#data_source{
+    margin-top: 15px;
+    text-align: center;
+}

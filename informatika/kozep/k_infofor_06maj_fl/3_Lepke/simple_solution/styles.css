@@ -1,0 +1,59 @@
+body#nappali{
+    background-color: darkslategray;
+}
+
+#nappali main{
+    width: 1200px;
+    margin: auto;
+}
+
+#nappali main h1{
+    text-align: center;
+    color: white;
+}
+
+#nappali table{
+    width: 640px;
+    margin: auto;
+    background: url("../assets/hatter.jpg");
+}
+
+#nappali table tr td h2{
+    text-align: left;
+}
+
+#nappali table tr td{
+    margin: 5px;
+}
+
+#nappali table tr td p, a{
+    font-size: 1.2rem;
+}
+
+#nappali a, a:active, a:visited{
+    color: black;
+}
+
+#nappali #jel{
+    margin-top: 5px;
+}
+
+/*Ejjeli styles*/
+
+#ejjeli table{
+    background-color: darkslategray;
+    color: white;
+}
+
+#ejjeli table tr td p img{
+    float: left;
+    border: 1px solid black;
+}
+
+#ejjeli a, a:active, a:visited{
+    color: white;
+}
+
+#ejjeli #jel{
+    margin-top: 5px;
+}
