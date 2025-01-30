@@ -1,0 +1,35 @@
+body{
+    background-color: darkblue;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+}
+
+main h1{
+    text-align: center;
+    color: white;
+}
+
+main table{
+    background-color: wheat;
+    margin: auto;
+}
+
+main table tr td{
+    padding: 5px;
+}
+
+#anthem{
+    width: 90%;
+}
+
+#anthem tr td span{
+    float: right;
+}
+
+#lyrics{
+    width: 60%;
+    text-align: left;
+}
