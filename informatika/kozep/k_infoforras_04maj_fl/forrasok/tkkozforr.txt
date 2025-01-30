@@ -1,0 +1,39 @@
+Ország	Fõváros	Csatlakozás	Szavazat	Váltás	Pénznem
+Albánia	Tirana			145,2	ALL
+Ausztria	Bécs	1995	10	1	EUR
+Belarusz	Minszk			2764,5	BYR
+Belgium	Brüsszel	1957	12	1	EUR
+Bosznia-Hercegovina	Szarajevo			1,956	BAM
+Bulgária	Szófia			1,95	BGN
+Ciprus	Nicosia	2004	4	0,59	CYP
+Csehország	Prága	2004	12	33,13	CZK
+Dánia	Koppenhága	1973	7	7,45	DKK
+Észtország	Tallin	2004	4	15,65	EEK
+Finnország	Helsinki	1995	7	1	EUR
+Franciaország	Párizs	1957	29	1	EUR
+Görögország	Athén	1981	12	1	EUR
+Hollandia	Hága	1957	13	1	EUR
+Horvátország	Zágráb			7,67	HRK
+Írország	Dublin	1973	7	1	EUR
+Izland	Reykjavik			86,84	ISK
+Lengyelország	Varsó	2004	27	4,84	PLN
+Lettország	Riga	2004	4	0,67	LVL
+Litvánia	Vilnius	2004	7	3,45	LTL
+Luxemburg	Luxembourg	1957	4	1	EUR
+Macedónia	Skopje			62,2	MKD
+Magyarország	Budapest	2004	12	263	HUF
+Málta	Valletta	2004	3	0,43	MTL
+Moldova	Kisinyov			16,18	MDL
+Nagy-Britannia	London	1973	29	0,68	GBF
+Németország	Berlin	1957	29	1	EUR
+Norvégia	Oslo			8,82	NOK
+Olaszország	Róma	1957	29	1	EUR
+Portugália	Lisszabon	1986	29	1	EUR
+Románia	Bukarest			40763	ROL
+Spanyolország	Madrid	1986	27	1	EUR
+Svájc	Bern			1,58	CHF
+Svédország	Stockholm	1995	10	9,15	SEK
+Szerbia és Montenegro	Belgrád			78,83	YUM
+Szlovákia	Pozsony	2004	7	40,52	SKK
+Szlovénia	Ljubjana	2004	4	237,1	SIT
+Ukrajna	Kijev			6,84	UAH
