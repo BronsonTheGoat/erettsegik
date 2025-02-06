@@ -1,0 +1,53 @@
+body{
+    background-color: maroon;
+    color: maroon;
+}
+
+main#metanol{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+#metanol table{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+#metanol table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#metanol table tr:nth-child(2) td{
+    text-align: left;
+}
+
+#metanol table tr td img{
+    border: 1px solid black;
+}
+
+#metanol table tr:nth-child(2) td img{
+    float: right;
+}
+
+#metanol table tr td h1{
+    text-align: center;
+}
+
+main#gyartas{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#gyartas img{
+    border: 1px solid black;
+}
+
+#gyartas p{
+    text-align: left;
+    margin: 10px;
+}
